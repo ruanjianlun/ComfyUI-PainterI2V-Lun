@@ -25,12 +25,11 @@ git clone https://github.com/princepainter/ComfyUI-PainterI2V.git
 motion_amplitude: 1.15（推荐起始值）
 其他参数与原版保持一致
 场景参数推荐：
-表格
-复制
-运动类型	推荐参数	示例提示词
-
-快速（跑步/跳跃）	1.25-1.35	"快速向前奔跑"
-正常（走路/挥手）	1.10-1.20	"流畅地行走"
+| 运动类型       | 推荐参数   | 示例提示词     |
+| -------------- | ---------- | -------------- |
+| 快速（跑步/跳跃） | 1.25-1.35  | "快速向前奔跑" |
+| 正常（走路/挥手） | 1.10-1.20  | "流畅地行走"   |
+| 慢动作特效     | 1.00~1.10    | "略微增强动态和运镜"     |
 
 提示词优化：
 明确描述运动节奏，如"快速奔跑"、"流畅行走"
@@ -94,11 +93,11 @@ Parameter Settings:
 motion_amplitude: 1.15 (Recommended starting value)
 Keep other parameters identical to the original
 Scene-Specific Settings:
-表格
-复制
-Motion Type	Recommended Value	Example Prompt
-Fast (Running/Jumping)	1.25-1.35	"quickly running forward"
-Normal (Walking/Waving)	1.10-1.20	"smoothly walking"
+| Motion Type               | Recommended Parameter | Example Prompt          |
+|---------------------------|-----------------------|-------------------------|
+| Fast (Running/Jumping)    | 1.25-1.35             | "Running forward quickly" |
+| Normal (Walking/Waving)   | 1.10-1.20             | "Walking smoothly"      |
+| Slow-motion Effect        | 1.00-1.10               | "Slightly enhance dynamics and camera movement"         |
 
 Prompt Tips:
 Clearly describe motion rhythm (e.g., "quickly running", "smoothly walking")
@@ -124,6 +123,7 @@ Example workflow (JSON)
 Sample input/output
 📄 License
 MIT License
+
 
 
 
