@@ -6,8 +6,8 @@ Wan2.2 图生视频增强节点，专门针对4步LoRA（如 lightx2v）的慢�
 
 ## 🛠 解决的问题
 
-- ✅ 减少慢动作拖影：提升运动幅度 15-30%
-- ✅ 保持画面亮度：增强算法不破坏亮度分布
+- ✅ 减少慢动作：提升运动幅度 15-30%
+- ✅ 增强运镜：让运镜提示词更听话，运镜幅度更大
 - ✅ 单帧输入优化：专为wan2.2单帧图生视频设计
 - ✅ 即插即用：完全兼容原版 Wan2.2 工作流
 
@@ -91,7 +91,7 @@ PainterI2V node that specifically fixes the slow-motion issue in 4-step LoRAs (e
 ## 🛠 Problems Solved
 
 - ✅ Reduces Slow-Motion Drag: Increases motion amplitude by 15-30% 
-- ✅ Maintains Brightness Stability: Enhancement algorithm preserves brightness distribution  
+- ✅ Enhance camera movement: Make the camera movement prompts more responsive and increase the movement amplitude. 
 - ✅ Optimized for Single Frame: Designed specifically for single-frame image-to-video workflows  
 - ✅ Plug & Play: Fully compatible with original Wan2.2 workflows 
 
@@ -167,6 +167,7 @@ In your workflow, replace `WanImageToVideo` with `PainterI2V`.
 If you find this project helpful, please give it a star ⭐ to show your support!
 </div>
 # Restart ComfyUI
+
 
 
 
