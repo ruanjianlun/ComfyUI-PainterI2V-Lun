@@ -6,10 +6,12 @@ Wan2.2 图生视频增强节点，专门针对4步LoRA（如 lightx2v）的慢�
 
 ## 🛠 解决的问题
 
-- ✅ 减少慢动作：提升运动幅度 15-30%
-- ✅ 增强运镜：让运镜提示词更听话，运镜幅度更大
-- ✅ 单帧输入优化：专为wan2.2单帧图生视频设计
-- ✅ 即插即用：完全兼容原版 Wan2.2 工作流
+- ✅ 1.减少慢动作：提升运动幅度 15-30%
+- ✅ 2.增强运镜：让运镜提示词更听话，运镜幅度更大
+  
+## 节点特点
+- 单帧输入优化：专为wan2.2单帧图生视频设计
+- 即插即用：完全兼容原版 Wan2.2 工作流
 
 ## 📦 安装
 
@@ -167,6 +169,7 @@ In your workflow, replace `WanImageToVideo` with `PainterI2V`.
 If you find this project helpful, please give it a star ⭐ to show your support!
 </div>
 # Restart ComfyUI
+
 
 
 
