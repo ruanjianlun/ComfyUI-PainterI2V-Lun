@@ -35,7 +35,9 @@ Wan2.2 图生视频增强节点，专门针对4步LoRA（如 lightx2v）的慢�
 </table>
 
 
- 
+以上视频对比效果，我是使用wan2.2官方模型+light2v 4步i2v lora V1.0做的测试，其他模型使用效果有待各位自行测试
+
+ ![我使用的模型和lora](image/QQ截图20251111171920.jpg)
 ## 节点特点
 - 单帧输入优化：专为wan2.2单帧图生视频设计
 - 即插即用：完全兼容原版 Wan2.2 工作流
@@ -196,6 +198,7 @@ In your workflow, replace `WanImageToVideo` with `PainterI2V`.
 If you find this project helpful, please give it a star ⭐ to show your support!
 </div>
 # Restart ComfyUI
+
 
 
 
