@@ -1,11 +1,7 @@
-from .nodes import NODE_CLASS_MAPPINGS as NODES_1, NODE_DISPLAY_NAME_MAPPINGS as NAMES_1
-from .test_nodes import NODE_CLASS_MAPPINGS as NODES_2, NODE_DISPLAY_NAME_MAPPINGS as NAMES_2
+from .test_nodes import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
 
-# 合并两个文件的节点映射
-NODE_CLASS_MAPPINGS = {**NODES_1, **NODES_2}
-NODE_DISPLAY_NAME_MAPPINGS = {**NAMES_1, **NAMES_2}
-
-__version__ = "1.0.7"
+__version__ = "1.0.8"
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
 
+# https://github.com/ruanjianlun/ComfyUI-PainterI2V-Lun.git
